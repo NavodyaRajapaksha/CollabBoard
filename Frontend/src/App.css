@@ -1,0 +1,13 @@
+.app {
+  padding: 2rem 1.5rem;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #94a3b8;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 1.5rem;
+}
