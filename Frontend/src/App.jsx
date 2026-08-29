@@ -11,18 +11,21 @@ function App() {
   });
   const [authPage, setAuthPage] = useState('login');
 
-  const handleLogin = (loggedInUser) => {
+  const handleLogin = ({ user: loggedInUser, token }) => {
     localStorage.setItem('collabboard_current_user', JSON.stringify(loggedInUser));
+    localStorage.setItem('collabboard_token', token);
     setUser(loggedInUser);
   };
 
-  const handleRegister = (newUser) => {
+  const handleRegister = ({ user: newUser, token }) => {
     localStorage.setItem('collabboard_current_user', JSON.stringify(newUser));
+    localStorage.setItem('collabboard_token', token);
     setUser(newUser);
   };
 
   const handleLogout = () => {
     localStorage.removeItem('collabboard_current_user');
+    localStorage.removeItem('collabboard_token');
     setUser(null);
     setAuthPage('login');
   };
