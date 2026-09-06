@@ -1,0 +1,33 @@
+* [33mb736e45[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Connect frontend to backend
+[31m|[m * [33mefa8081[m[33m ([m[1;31morigin/controllers[m[33m, [m[1;32mcontrollers[m[33m)[m Add task controller
+[31m|[m * [33m7878872[m Add controllers
+[31m|[m * [33m39691fd[m[33m ([m[1;31morigin/services[m[33m, [m[1;32mservices[m[33m)[m Add API
+[31m|[m[31m/[m  
+* [33mc753bfd[m Organize project into frontend backend and database folders
+* [33m9e3c7f8[m Create Database
+* [33m1e217b3[m Create Backend
+[32m|[m * [33mdf4d856[m[33m ([m[1;31morigin/hooks[m[33m)[m Update of App.jsx
+[32m|[m * [33m0558d44[m Add hooks
+[32m|[m * [33m33bb299[m[33m ([m[1;31morigin/data[m[33m)[m Add mockData
+[32m|[m * [33mee668b8[m[33m ([m[1;31morigin/public[m[33m)[m Add index.html
+[32m|[m * [33m17dcc56[m[33m ([m[1;31morigin/index[m[33m)[m Add index.css
+[32m|[m * [33mcfe98f7[m Add index.js
+[32m|[m * [33m0fabd63[m[33m ([m[1;31morigin/App[m[33m)[m Add App.css
+[32m|[m * [33m7470770[m Add App.jsx
+[32m|[m * [33m0ef05ee[m[33m ([m[1;31morigin/navbar[m[33m)[m Add files via upload
+[32m|[m * [33med54f70[m Add files via upload
+[32m|[m[32m/[m  
+* [33m949c727[m Clean up main branch: keep only Frontend folder and README
+* [33mff6001e[m Taskcard.jsx
+*   [33m56f7465[m[33m ([m[1;31morigin/TaskCard.jsx[m[33m)[m git push origin main Merge branch 'main' of https://github.com/NavodyaRajapaksha/CollabBoard
+[35m|[m[36m\[m  
+* [36m|[m [33mc0df03f[m Update TaskCard component
+ [36m/[m  
+[36m|[m * [33mdc64fa5[m[33m ([m[1;31morigin/column[m[33m)[m Add files via upload
+[36m|[m * [33m455e5da[m cloumn.css initial commit
+[36m|[m[36m/[m  
+* [33m92d03a1[m Create Frontend
+* [33m63f90da[m Initial commit
+* [33mf1440d7[m[33m ([m[1;31morigin/TaskCard.css[m[33m)[m Add TaskCard.css
+* [33m2797fa8[m[33m ([m[1;31morigin/Board.css[m[33m)[m Add Board.css
+* [33m99e7fd2[m[33m ([m[1;31morigin/Board[m[33m)[m Add Board.jsx
